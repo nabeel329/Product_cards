@@ -1,0 +1,65 @@
+.divContainer {
+  border: 1px solid black;
+  box-shadow: 0 0 20px grey;
+  margin: 8px;
+  width: 300px; /* Consistent width for all cards */
+  min-height: 470px; /* Minimum height to accommodate most content */
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  overflow: hidden; /* Prevent overflow */
+}
+
+.img {
+  max-width: 100%;
+  max-height: 150px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 8px 0;
+  height: auto;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.category {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 4px 0;
+}
+
+.price {
+  font-size: 1rem;
+  color: #228b22;
+  font-weight: bold;
+  margin: 6px 0;
+}
+
+.rating {
+  font-size: 0.9rem;
+  color: #ff9900;
+  margin: 4px 0;
+}
+
+.description {
+  font-size: 0.85rem;
+  color: #666;
+  margin: 8px 0;
+  height: auto; /* Allow the description to expand */
+  line-height: 1.4; /* Improved readability */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Add ellipsis for overflowed text */
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Show 3 lines of text */
+  -webkit-box-orient: vertical;
+}

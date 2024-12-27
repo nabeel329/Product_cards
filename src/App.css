@@ -1,0 +1,8 @@
+.appContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center-align cards */
+  gap: 16px; /* Spacing between cards */
+  padding: 20px;
+  background-color: #eef2f3;
+}
